@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FinalProject</string>
+    <string name="page_2_title">Change BPM</string>
+    <string name="page_3_title">Different Instruments</string>
+    <string name="page_4_title">Web Browser</string>
+    <string name="page_5_title">Page 5</string>
+    <string name="choose_page" />
+    <!-- Add any additional strings as needed -->
+</resources>

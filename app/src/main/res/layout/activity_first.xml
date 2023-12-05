@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".FirstActivity"
+    tools:ignore="ExtraText">
+
+ <!-- Banner -->
+
+ <!-- First Image View -->
+
+ <!-- Second Image View -->
+
+ <!-- Dropdown Menu -->
+
+ <!-- Audio Player Button -->
+
+ <TextView
+     android:id="@+id/textBanner"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_alignParentTop="true"
+     android:layout_marginTop="-4dp"
+     android:background="@color/black"
+     android:gravity="center"
+     android:text="Esjai Audio"
+     android:textColor="#ffffff"
+     android:textSize="24sp" />
+
+ <Spinner
+     android:id="@+id/spinnerMenu"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_below="@id/textBanner"
+     android:layout_alignParentStart="true"
+     android:layout_marginStart="154dp"
+     android:layout_marginTop="15dp"
+     android:backgroundTint="@color/design_default_color_error"
+     android:entries="@array/page_names"
+     android:prompt="@string/choose_page"
+     android:visibility="visible" />
+
+ <Button
+     android:id="@+id/buttonPlayAudio"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_below="@id/spinnerMenu"
+     android:layout_marginTop="411dp"
+     android:onClick="onPlayAudioClick"
+     android:text="Play"
+     android:textColorHighlight="@color/white"
+     android:textColorLink="@color/design_default_color_error"
+     app:iconTint="@color/design_default_color_error" />
+</RelativeLayout>

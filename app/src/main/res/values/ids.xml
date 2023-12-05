@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="menu_item_example" type="id" />
+    <item name="btnPlayPause" type="id" />
+    <item name="webView" type="id" />
+</resources>
