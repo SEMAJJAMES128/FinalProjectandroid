@@ -13,7 +13,7 @@
         android:layout_alignParentRight="true"
         android:layout_marginTop="16dp"
         android:layout_marginRight="16dp"
-        android:backgroundTint="@color/white"
+        android:backgroundTint="@color/design_default_color_error"
         android:prompt="@string/choose_page"
         android:textColor="@color/white"
         android:textColorHighlight="@color/white"
@@ -33,6 +33,15 @@
         android:layout_marginBottom="287dp"
         android:orientation="vertical">
 
+        <!-- TextView explaining the importance of BPM -->
+
+        <Button
+            android:id="@+id/btnPlayPause"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onPlayPauseClick"
+            android:text="Play/Pause" />
+
         <EditText
             android:id="@+id/editTextBPM"
             android:layout_width="110dp"
@@ -42,14 +51,18 @@
             android:textColor="@color/white"
             android:textColorHighlight="@color/white"
             android:textColorHint="@color/white" />
-
-        <Button
-            android:id="@+id/btnPlayPause"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:onClick="onPlayPauseClick"
-            android:text="Play/Pause" />
     </LinearLayout>
+
+    <TextView
+        android:id="@+id/textViewBPMExplanation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextBPM"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="94dp"
+        android:text="Selecting the right BPM (Beats Per Minute) is crucial for setting the mood and rhythm of your instrumentals. It determines the tempo and energy of your music, so choose wisely!"
+        android:textColor="@color/white" />
 
     <!-- Add other UI elements as needed -->
 

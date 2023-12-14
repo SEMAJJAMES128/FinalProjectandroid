@@ -19,6 +19,17 @@
  <!-- Audio Player Button -->
 
  <TextView
+     android:id="@+id/introductionText"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_below="@id/textBanner"
+     android:layout_marginTop="170dp"
+     android:gravity="center"
+     android:text="Welcome to Esjai Audio, your app for creating beautiful instrumentals. Express your musical creativity and bring your ideas to life!"
+     android:textColor="#ffffff"
+     android:textSize="16sp" />
+
+ <TextView
      android:id="@+id/textBanner"
      android:layout_width="match_parent"
      android:layout_height="wrap_content"

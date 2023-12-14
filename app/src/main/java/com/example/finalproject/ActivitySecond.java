@@ -22,7 +22,7 @@ public class ActivitySecond extends AppCompatActivity {
         setContentView(R.layout.activity_second);
 
         // Initialize and set up your audio player
-        mediaPlayer = MediaPlayer.create(this, R.raw.wave);
+        mediaPlayer = MediaPlayer.create(this, R.raw.schoool);
 
         // Initialize the EditText for BPM
         editTextBPM = findViewById(R.id.editTextBPM);
